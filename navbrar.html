@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+div{
+    height: 100px;
+    width:100px;
+    background-color: chocolate;
+    /* rotate: y45deg;
+    transform: scale(2); */
+    animation:ColorAnimate 2s ease-in 0s infinite normal;
+    border:2px solid black;
+
+}
+@media(max-width:600px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width:300)and(max-width:400){
+    div{
+        background-color: red;
+    }
+}
+@media(min-width:400)and(max-width:600){
+    div{
+        background-color: aliceblue;
+    }
+
+
+
+    </style>
+
+<div>  </div>
+</body>
+</html>
